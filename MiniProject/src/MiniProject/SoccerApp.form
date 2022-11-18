@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MiniProject.SoccerApp">
-  <grid id="27dc6" binding="MainFrame" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
-    <children/>
+    <children>
+      <component id="6678d" class="javax.swing.JLabel" binding="JLSoccerBookings">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font size="28" style="2"/>
+          <horizontalAlignment value="0"/>
+          <icon value="MiniProject/football-field.png"/>
+          <text value="Soccer Bookings"/>
+        </properties>
+      </component>
+    </children>
   </grid>
 </form>
